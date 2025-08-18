@@ -71,7 +71,7 @@ const Services = () => {
 
 	return (
 		<>
-			<div className="services__three section-padding">
+			<div className="services__three section-padding" style={{ background: '#263495' }}>
 				<div className="container">
 					<div className="row mb-70">
 						<div className="col-xl-12">
