@@ -76,7 +76,7 @@ const Services = () => {
 					<div className="row mb-70">
 						<div className="col-xl-12">
 							<div className="services__three-title">
-								<span className="subtitle-three">POWERING INDUSTRIES</span>
+								<span className="subtitle-three" style={{ color: '#fff' }}>POWERING INDUSTRIES</span>
 								<h2>Our Core Services</h2>
 							</div>
 						</div>
