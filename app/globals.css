@@ -44,7 +44,6 @@
 .client-logo {
 	max-width: 120px;
 	max-height: 40px;
-	filter: grayscale(100%);
 	opacity: 0.85;
 	transition: all 0.25s ease;
 }
