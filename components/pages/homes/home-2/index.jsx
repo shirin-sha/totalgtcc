@@ -49,7 +49,7 @@ const HomeTwo = ({addClass}) => {
 					<div className="row g-3 g-md-4 align-items-center">
 						{clientLogos.map((src, i) => (
 							<div className="col-6 col-sm-4 col-md-3" key={i}>
-								<img className="client-logo" src={src} alt="client" style={{ maxWidth: 220, maxHeight: 70 }} />
+								<img className="client-logo" src={src} alt="client" style={{ maxWidth: 220, maxHeight: 100}} />
 							</div>
 						))}
 					</div>

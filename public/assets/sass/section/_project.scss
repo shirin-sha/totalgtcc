@@ -416,19 +416,24 @@ Project Filter CSS
 			}
 		}
 		&:hover {
-			&::before {				
-				opacity: 0.7;
-			}
+			&::before 	{ opacity: 0.7; }
 			.project__one-item {
-				&-content {
-					opacity: 1;
-					bottom: 40px;
-				}
-				&-icon {
-					top: 22%;
-					opacity: 1;
-				}	
+				&-content { opacity: 1; bottom: 40px; }
+				&-icon { top: 22%; opacity: 1; }
 			}		
+		}
+	}
+	/* Inverse variant: show content by default, reveal image on hover */
+	&.inverse {
+		.project__one-item {
+			&::before { opacity: 0.7; } /* dim image initially */
+			&-content { opacity: 1; bottom: 40px; }
+			&-icon { top: 22%; opacity: 1; }
+			&:hover {
+				&::before { opacity: 0; } /* remove dim, show full image */
+				&-content { opacity: 0; }
+				&-icon { opacity: 0; }
+			}
 		}
 	}
 }

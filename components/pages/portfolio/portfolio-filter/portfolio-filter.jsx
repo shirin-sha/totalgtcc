@@ -36,21 +36,23 @@ const PortfolioFilter = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row">
-						{filteredProjects?.map((data, id) => (
-							<div className="col-xl-4 col-md-6 mt-30" key={id}>
-								<div className="project__one-item">
-									<img src={data.image.src} alt="image" />
-									<div className="project__one-item-content">
-										<span>{data.subtitle}</span>
-										<h4>{data.title}</h4>
-									</div>
-									<div className="project__one-item-icon">
-										<i className="fal fa-long-arrow-up"></i>
+					<div className="project__one inverse">
+						<div className="row">
+							{filteredProjects?.map((data, id) => (
+								<div className="col-xl-4 col-md-6 mt-30" key={id}>
+									<div className="project__one-item">
+										<img src={data.image.src} alt="image" />
+										<div className="project__one-item-content">
+											<span>{data.subtitle}</span>
+											<h4>{data.title}</h4>
+										</div>
+										<div className="project__one-item-icon">
+											<i className="fal fa-long-arrow-up"></i>
+										</div>
 									</div>
 								</div>
-							</div>
-						))}
+							))}
+						</div>
 					</div>
 				</div>
 			</div>

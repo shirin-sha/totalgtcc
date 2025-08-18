@@ -44,14 +44,23 @@
 .client-logo {
 	max-width: 120px;
 	max-height: 40px;
+	filter: grayscale(100%);
 	opacity: 0.85;
 	transition: all 0.25s ease;
 }
 .client-logo-card:hover {
 	border-color: var(--brand-blue);
-	
+	box-shadow: 0 6px 18px rgba(38,52,149,0.12);
 }
 .client-logo-card:hover .client-logo {
 	filter: grayscale(0%);
 	opacity: 1;
 }
+
+/* Portfolio filter inverse: show content by default, reveal image on hover */
+.project__one.inverse .project__one-item::before { opacity: 0.7; }
+.project__one.inverse .project__one-item-content { opacity: 1; bottom: 40px; }
+.project__one.inverse .project__one-item-icon { opacity: 1; top: 22%; }
+.project__one.inverse .project__one-item:hover::before { opacity: 0; }
+.project__one.inverse .project__one-item:hover .project__one-item-content { opacity: 0; }
+.project__one.inverse .project__one-item:hover .project__one-item-icon { opacity: 0; }
