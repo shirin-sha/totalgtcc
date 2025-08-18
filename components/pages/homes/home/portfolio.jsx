@@ -51,11 +51,11 @@ const Portfolio = () => {
                                         <img src={data.image.src} alt="image" />
                                         <div className="portfolio__area-item-content">
                                             <div className="portfolio__area-item-content-title">
-                                                <h4><Link href={`/portfolio/${data.id}`}>{data.title}</Link></h4>
+                                                <h4>{data.title}</h4>
                                                 <span className="text-eight">{data.subtitle}</span>
                                             </div>
                                             <div className="portfolio__area-item-content-icon">
-                                                <Link href={`/portfolio/${data.id}`}><img src="assets/img/icon/up-arrow.png" alt="icon" /></Link>
+                                                <img src="assets/img/icon/up-arrow.png" alt="icon" />
                                             </div>
                                         </div>
                                     </div>

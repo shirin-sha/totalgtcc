@@ -4,12 +4,11 @@ import Count from "../common/count";
 
 const AboutMain = () => {
     const aboutContent = {
-        image_1: '/assets/img/about/about-7.jpg',
-        image_2: '/assets/img/about/about-8.jpg',
+        image_1: '/assets/img/about/About-Us-Page-Section-1-Image-1.jpg',
+        image_2: '/assets/img/about/About-Us-Page-Section-1-Image-2.jpg',
         subtitle: 'Our Company',
         title: 'Building Trust, Delivering Excellence',
         description: 'TOTAL General Trading & Contracting Co. (TOTAL GTCC) is a Kuwait-based company dedicated to delivering quality industrial trading, contracting, ICT, and integrated solutions for Oil & Gas, Utilities, and Security industries. With a commitment to excellence and customer satisfaction, TOTAL has grown into a trusted partner, offering reliable services, innovative business approaches, and long-term relationships that ensure value for our clients across multiple sectors.',
-        btn_text: 'Discover More',
         btn_href: '/about-us',
         shape_1: '/assets/img/shape/about-1.png',
         shape_2: '/assets/img/shape/about-2.png',
@@ -37,7 +36,7 @@ const AboutMain = () => {
                                     <span className="subtitle-one">{aboutContent.subtitle}</span>
                                     <h2>{aboutContent.title}</h2>
                                     <p>{aboutContent.description}</p>
-                                    <Link className="btn-one" href={aboutContent.btn_href}>{aboutContent.btn_text}</Link>
+                           
                                 </div>
                             </div>
                         </div>

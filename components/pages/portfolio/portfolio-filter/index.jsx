@@ -12,7 +12,7 @@ const PortfolioFilterPage = () => {
         <>
             <SEO pageTitle='Portfolio Filter' />
             <HeaderOne />
-            <BreadCrumb title="Portfolio Filter" innerTitle="Portfolio Filter" />
+            <BreadCrumb title="Projects" innerTitle="Projects" />
             <PortfolioFilter />
             <div className='all-footer'>
                 <FooterTwo />

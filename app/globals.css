@@ -44,13 +44,12 @@
 .client-logo {
 	max-width: 120px;
 	max-height: 40px;
-	filter: grayscale(100%);
 	opacity: 0.85;
 	transition: all 0.25s ease;
 }
 .client-logo-card:hover {
 	border-color: var(--brand-blue);
-	box-shadow: 0 6px 18px rgba(38,52,149,0.12);
+	
 }
 .client-logo-card:hover .client-logo {
 	filter: grayscale(0%);

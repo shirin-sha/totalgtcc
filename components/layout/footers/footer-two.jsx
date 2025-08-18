@@ -58,9 +58,9 @@ sectors.
 						</div>
 						<div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
 							<div className="footer__two-widget footer-border">
-								<h4>Contact Information</h4>
+								<h4>Head Office</h4>
 								<div className="footer__two-widget-location">
-									<h6>Head Office</h6>
+								
 									<div className="footer__two-widget-location-item">
 										<div className="footer__two-widget-location-item-icon">
 											<i className="far fa-map-marker-alt"></i>

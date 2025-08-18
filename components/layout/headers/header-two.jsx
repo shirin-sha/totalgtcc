@@ -34,7 +34,7 @@ const HeaderTwo = () => {
                         <div className="header__area-menubar-left">
                             <div className="header__area-menubar-left-logo">
                                 <Link href='/'>
-                                    <img className='one' src={logo1.src} alt='logo' />
+                                    <img className='one' src={logo1.src} alt='logo' style={{ maxHeight: 56, height: 'auto', width: 'auto', objectFit: 'contain' }} />
                                     {/* <img className="two" src={logo2.src} alt="logo" /> */}
                                     {/* <img className="light" src={logo3.src} alt="logo" /> */}
                                 </Link>
@@ -62,7 +62,7 @@ const HeaderTwo = () => {
                             </div>
                         </div>
                         <div className="header__area-menubar-right-btn">
-                            <Link className="btn-six" href="/request-quote">Consulting<i className="far fa-chevron-double-right"></i></Link>
+                            <Link className="btn-six" href="/request-quote">Profile <i className="far fa-download"></i></Link>
                         </div>
                     </div>
                 </div>

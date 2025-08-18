@@ -44,9 +44,6 @@ const About = () => {
                                 <p>{aboutData?.description}</p>
                             </div>
                             <div className="about__one-right-btn">
-                                <div>
-                                    <Link className="btn-one" href={aboutData?.btn_link}>{aboutData?.btn_title}<i className="far fa-chevron-double-right"></i></Link>
-                                </div>
                                 <div className="about__one-right-btn-author">
                                     <div className="about__one-right-btn-author-avatar">
                                         <img src={avatar.src} alt="about-avatar" />

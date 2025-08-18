@@ -43,10 +43,10 @@ const PortfolioFilter = () => {
 									<img src={data.image.src} alt="image" />
 									<div className="project__one-item-content">
 										<span>{data.subtitle}</span>
-										<h4><Link href={`/portfolio/${data.id}`}>{data.title}</Link></h4>
+										<h4>{data.title}</h4>
 									</div>
 									<div className="project__one-item-icon">
-										<Link href={`/portfolio/${data.id}`}><i className="fal fa-long-arrow-up"></i></Link>
+										<i className="fal fa-long-arrow-up"></i>
 									</div>
 								</div>
 							</div>

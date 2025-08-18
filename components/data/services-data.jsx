@@ -1,15 +1,15 @@
-import image1 from "../../public/assets/img/service/service-1.jpg";
-import image2 from "../../public/assets/img/service/service-2.jpg";
-import image3 from "../../public/assets/img/service/service-3.jpg";
-import image4 from "../../public/assets/img/service/service-4.jpg";
-import image5 from "../../public/assets/img/service/service-5.jpg";
-import image6 from "../../public/assets/img/service/service-6.jpg";
+import image1 from "../../public/assets/img/service/Industrial Trading.jpg";
+import image2 from "../../public/assets/img/service/industrial Contracting.jpg";
+import image3 from "../../public/assets/img/service/Logistics Services.jpg";
+import image4 from "../../public/assets/img/service/ICT Services.jpg";
+import image5 from "../../public/assets/img/service/Security-Defence-Services.jpg";
+import image6 from "../../public/assets/img/service/Offshore-Services.jpg";
 
 const servicesData = [
     {
         id: 'business-model',
         icon: <i className="flaticon-corporate"></i>,
-        title: 'Business Model',
+        title: 'Industrial Trading',
         description: 'We conduct a thorough analysis of your existing business model',
         number: '1',
         image: image1,
@@ -17,7 +17,7 @@ const servicesData = [
     {
         id: 'digital-solutions',
         icon: <i className="flaticon-consultant-services"></i>,
-        title: 'Digital Solutions',
+        title: 'Industrial Contracting',
         description: 'Streamline operations and improve collaboration with cloud',
         number: '2',
         image: image2,
@@ -25,7 +25,7 @@ const servicesData = [
     {
         id: 'machine-learning',
         icon: <i className="flaticon-data-science"></i>,
-        title: 'Machine Learning',
+        title: 'Logistics Services',
         description: 'Machine Learning leverages the power of algorithms',
         number: '3',
         image: image3,
@@ -33,7 +33,7 @@ const servicesData = [
     {
         id: 'audit-marketing',
         icon: <i className="flaticon-analysis"></i>,
-        title: 'Audit Marketing',
+        title: 'ICT Services',
         description: 'We map out the customer journey to understand how your target',
         number: '4',
         image: image4,
@@ -41,7 +41,7 @@ const servicesData = [
     {
         id: 'business-consulting',
         icon: <i className="flaticon-creative"></i>,
-        title: 'Business Consulting',
+        title: 'Security & Defence',
         description: 'Our team of seasoned consultants collaborates closely',
         number: '5',
         image: image5,
@@ -49,19 +49,12 @@ const servicesData = [
     {
         id: 'human-research',
         icon: <i className="flaticon-resource"></i>,
-        title: 'Human research',
+        title: 'Offshore Services',
         description: 'This can involve orientation for new hires, skill development,',
         number: '6',
         image: image6,
     },
-    {
-        id: 'industrial-trading',
-        icon: <i className="flaticon-corporate"></i>,
-        title: 'Industrial Trading',
-        description: 'Supplying pumps, valves, turbines, piping, and spare parts for industries.',
-        number: '7',
-        image: image1,
-    },
+  
     {
         id: 'industrial-contracting',
         icon: <i className="flaticon-analysis"></i>,

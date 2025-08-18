@@ -1,6 +1,6 @@
 import React from 'react';
-import bgImage from "../../../public/assets/img/about/about-solution.jpg";
-import image from "../../../public/assets/img/about/about-9.jpg";
+import bgImage from "../../../public/assets/img/about/About-Us-Page-Section-3.jpg"
+import image from "../../../public/assets/img/about/About-Us-Page-Section-2-Image-1.jpg";
 import shape from "../../../public/assets/img/shape/about-solution.png";
 import Count from '../common/count';
 import Link from 'next/link';
@@ -32,7 +32,7 @@ value.</p>
                                         <h6>Global Partners</h6>
                                     </div>
                                 </div>
-                                <Link className="btn-two" href="/about">Discover more<i className="far fa-chevron-double-right"></i></Link>
+                                {/* <Link className="btn-two" href="/about">Discover more<i className="far fa-chevron-double-right"></i></Link> */}
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-5">

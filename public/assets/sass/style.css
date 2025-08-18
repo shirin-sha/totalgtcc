@@ -1063,7 +1063,7 @@ Conbix Color CSS
   --black: #000000;
   --primary-color-1: #263495;
   --primary-color-2: #263495;
-  --primary-color-3: #9AA3E4;
+  --primary-color-3: #263495;
   --bg-heading-color: #131313;
   --text-heading-color: #131313;
   --btn-heading-color: #131313;
@@ -4072,6 +4072,7 @@ Menu Bar CSS
 .header__area-menubar-right-btn .btn-six {
   color: var(--text-white);
   border-color: var(--text-white);
+  margin-left: 100px;
 }
 .header__area-menubar-right-btn .btn-six:hover {
   color: var(--bg-heading-color);
@@ -5415,7 +5416,7 @@ About Two CSS
   border-right: 1px solid var(--border-color-2);
 }
 .about__two-right-experience h6 {
-  max-width: 187px;
+  max-width: 300px;
 }
 
 /*==========================================================================
@@ -8959,7 +8960,7 @@ Solution Two CSS
   height: 90px;
   line-height: 90px;
   text-align: center;
-  background: var(--color-17);
+  background: var(--primary-color-2);
   border-radius: 50%;
   margin-bottom: 20px;
 }

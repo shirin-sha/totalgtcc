@@ -7,6 +7,8 @@ import Form from "./form";
 import Social from "@/components/data/social";
 import ScrollToTop from "../common/scroll/scroll-to-top";
 
+const iconStyle = { color: 'var(--primary-color-1)', fontSize: 45, width: 45, height: 45, lineHeight: '45px', textAlign: 'center' };
+
 const ContactFour = () => {
 	return (
 		<>
@@ -22,7 +24,7 @@ const ContactFour = () => {
 								<p className="mb-30">We’re ready to answer your questions and support your business needs. Reach out to us anytime.</p>
 								<div className="contact__two-left-item">
 									<div className="contact__two-left-item-icon">
-										<img src="/assets/img/icon/call.png" alt="icon" />
+										<i className="fal fa-phone" style={iconStyle}></i>
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Call Us</span>
@@ -31,7 +33,7 @@ const ContactFour = () => {
 								</div>
 								<div className="contact__two-left-item">
 									<div className="contact__two-left-item-icon">
-										<img src="/assets/img/icon/document.png" alt="icon" />
+										<i className="fal fa-file-alt" style={iconStyle}></i>
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Send Fax</span>
@@ -40,7 +42,7 @@ const ContactFour = () => {
 								</div>
 								<div className="contact__two-left-item">
 									<div className="contact__two-left-item-icon">
-										<img src="/assets/img/icon/email.png" alt="icon" />
+										<i className="fal fa-envelope" style={iconStyle}></i>
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Email Us</span>
@@ -49,7 +51,7 @@ const ContactFour = () => {
 								</div>
 								<div className="contact__two-left-item">
 									<div className="contact__two-left-item-icon">
-										<img src="/assets/img/icon/locations.png" alt="icon" />
+										<i className="fal fa-map-marker-alt" style={iconStyle}></i>
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Office Address</span>

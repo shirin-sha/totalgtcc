@@ -12,7 +12,7 @@ const About = () => {
         title: 'Trusted Partner in Energy & Industry',
         description: 'TOTAL GTCC delivers innovative trading, contracting, and ICT solutions across energy and industrial sectors. We provide reliable services, advanced technologies, and strong partnerships to ensure performance, safety, and sustainable growth for our clients.',
         count: 20,
-        exp: 'Years of Excellence in\nIndustrial & Engineering Services',
+        exp: 'Years of Excellence in Industrial & Engineering Services',
         btn_title: 'LEARN MORE',
         btn_link: '/about-us',
     }
