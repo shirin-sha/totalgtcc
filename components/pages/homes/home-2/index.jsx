@@ -10,29 +10,29 @@ import Video from "./video";
 import Work from "./work";
 import Consulting from "./consulting";
 import Portfolio from "./portfolio";
-import Team from "./team";
 import Blog from "./blog";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 const HomeTwo = ({addClass}) => {
-    return (
-        <>
-            <SEO pageTitle="Consulting Business" />
-            <SwitchTab addClass={addClass} />
-            <HeaderTwo />
-            <BannerTwo />
-            <Services />
-            <About />
-            <Video />
-            <Work />
-            <Consulting />
-            <Portfolio />
-            <Team />
-            <Blog />
-            <FooterTwo />
-            <ScrollToTop addClass={addClass} />
-        </>
-    );
+	return (
+		<>
+			<SEO pageTitle="Consulting Business" />
+			<SwitchTab addClass={addClass} />
+			<HeaderTwo />
+			<BannerTwo />
+			<Services />
+			<About />
+			<Video />
+			<Work />
+			<Consulting />
+			<Portfolio />
+			<Blog />
+			<div className='all-footer'>
+				<FooterTwo />
+			</div>
+			<ScrollToTop addClass={addClass} />
+		</>
+	);
 };
 
 export default HomeTwo;

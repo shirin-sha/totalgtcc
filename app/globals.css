@@ -8,3 +8,51 @@
 @import "../public/assets/font/flaticon_conbix.css";
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
+
+:root {
+	--brand-blue: #263495;
+	--brand-blue-light: #9AA3E4;
+}
+
+.footer__two .footer__two-widget-location-item-icon i {
+	color: var(--brand-blue-light);
+}
+
+.footer__two a:hover {
+	color: var(--brand-blue-light);
+}
+
+.footer__two h4 {
+	color: #fff;
+}
+
+.footer__two p, .footer__two a, .footer__two li {
+	color: #fff;
+}
+
+/* Clients refined grid */
+.client-logo-card {
+	background: rgba(154,163,228,0.08);
+	border: 1px solid rgba(154,163,228,0.3);
+	border-radius: 10px;
+	padding: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.25s ease;
+}
+.client-logo {
+	max-width: 120px;
+	max-height: 40px;
+	filter: grayscale(100%);
+	opacity: 0.85;
+	transition: all 0.25s ease;
+}
+.client-logo-card:hover {
+	border-color: var(--brand-blue);
+	box-shadow: 0 6px 18px rgba(38,52,149,0.12);
+}
+.client-logo-card:hover .client-logo {
+	filter: grayscale(0%);
+	opacity: 1;
+}

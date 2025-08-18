@@ -1,6 +1,6 @@
 "use client";
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-one";
+import HeaderOne from "@/components/layout/headers/header-two";
 import About from "./about";
 import Services from "./services";
 import CtaArea from "./cta";

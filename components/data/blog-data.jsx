@@ -1,37 +1,32 @@
-import image1 from "../../public/assets/img/blog/blog-1.jpg";
-import image2 from "../../public/assets/img/blog/blog-2.jpg";
-import image3 from "../../public/assets/img/blog/blog-3.jpg";
-import image4 from "../../public/assets/img/blog/blog-4.jpg";
-import image5 from "../../public/assets/img/blog/blog-5.jpg";
-import image6 from "../../public/assets/img/blog/blog-6.jpg";
-import image7 from "../../public/assets/img/blog/blog-7.jpg";
-import image8 from "../../public/assets/img/blog/blog-8.jpg";
+import image1 from "../../public/assets/img/blog/blog1.jpg";
+import image2 from "../../public/assets/img/blog/blog2.jpg";
+import image3 from "../../public/assets/img/blog/blog3.jpg";
 
 const blogData = [
     {
         number: '01',
-        id: 'revamp-your-business-with-expert-consulting',
+        id: 'advancing-kuwaits-energy-future-with-innovative-solutions',
         date: '10',
         comment: '2',
-        title: 'Revamp Your Business with Expert Consulting',
+        title: "Advancing Kuwait’s Energy Future with Innovative Solutions",
         des: 'Experts say some good first steps in starting business are researching',
         image: image1,
     },
     {
         number: '02',
-        id: 'drive-business-growth-with-our-consulting',
+        id: 'smart-ict-services-driving-industrial-transformation',
         date: '12',
         comment: '3',
-        title: 'Drive Business Growth with our Consulting',
+        title: 'Smart ICT Services Driving Industrial Transformation',
         des: 'Experts say some good first steps in starting business are researching',
         image: image2,
     },
     {
         number: '03',
-        id: 'teaching-and-training-employees',
+        id: 'building-safer-facilities-with-security-and-defence-expertise',
         date: '13',
         comment: '6',
-        title: 'Teaching and training employees',
+        title: 'Building Safer Facilities with Security & Defence Expertise',
         des: 'Experts say some good first steps in starting business are researching',
         image: image3,
     },
@@ -42,7 +37,7 @@ const blogData = [
         comment: '7',
         title: 'Our consultants can make your brand a reality',
         des: 'Experts say some good first steps in starting business are researching',
-        image: image4,
+        image: image1,
     },
     {
         number: '05',
@@ -51,7 +46,7 @@ const blogData = [
         comment: '5',
         title: 'Elevate Your Enterprise The Impact of Consulting',
         des: 'Experts say some good first steps in starting business are researching',
-        image: image5,
+        image: image2,
     },
     {
         number: '06',
@@ -60,7 +55,7 @@ const blogData = [
         comment: '3',
         title: 'Transform Your Business with Consulting',
         des: 'Experts say some good first steps in starting business are researching',
-        image: image6,
+        image: image3,
     },
     {
         number: '07',
@@ -69,7 +64,7 @@ const blogData = [
         comment: '4',
         title: 'Crafting Excellence: The Art of Business Consulting',
         des: 'Experts say some good first steps in starting business are researching',
-        image: image7,
+        image: image1,
     },
     {
         number: '08',
@@ -78,7 +73,7 @@ const blogData = [
         comment: '7',
         title: 'Maximize Potential with Expert Consulting',
         des: 'Experts say some good first steps in starting business are researching',
-        image: image8,
+        image: image2,
     },
 ];
 

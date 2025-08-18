@@ -1,22 +1,20 @@
 import shape1 from "../../../../public/assets/img/shape/about.png";
 import shape2 from "../../../../public/assets/img/shape/about-dark.png";
-import image1 from "../../../../public/assets/img/about/about-3.jpg";
-import image2 from "../../../../public/assets/img/about/about-4.jpg";
+import image1 from "../../../../public/assets/img/about/about2.jpg";
+import image2 from "../../../../public/assets/img/about/about1.jpg";
 import avatar from "../../../../public/assets/img/avatar/avatar-1.jpg";
 import Count from "../../common/count";
 import Link from "next/link";
 
 const About = () => {
     const aboutData = {
-        subtitle: 'About Company',
-        title: 'Business consulting provide specialized',
-        description: 'Aliquam volutpat diam a orci euismod ornare. Suspendisse quis massa justo. Suspendisse tortor lacus, tincidunt ut ex a, pretium lobortis sapien. Vestibulum rutrum pharetra ex,',
-        count: 32,
-        exp: 'Years Experience on Business Consulting',
-        btn_title: 'Discover More',
-        btn_link: '/about',
-        author_name: 'Nguyen, Shane',
-        author_sub: 'Founder CEO',
+        subtitle: 'ABOUT COMPANY',
+        title: 'Trusted Partner in Energy & Industry',
+        description: 'TOTAL GTCC delivers innovative trading, contracting, and ICT solutions across energy and industrial sectors. We provide reliable services, advanced technologies, and strong partnerships to ensure performance, safety, and sustainable growth for our clients.',
+        count: 20,
+        exp: 'Years of Excellence in\nIndustrial & Engineering Services',
+        btn_title: 'LEARN MORE',
+        btn_link: '/about-us',
     }
     return (
         <div className="about__two dark__image section-padding">
@@ -52,15 +50,6 @@ const About = () => {
                             <div className="about__two-right-btn">
                                 <div>
                                     <Link className="btn-six" href={aboutData?.btn_link}>{aboutData?.btn_title}<i className="far fa-chevron-double-right"></i></Link>
-                                </div>
-                                <div className="about__two-right-btn-author">
-                                    <div className="about__two-right-btn-author-avatar">
-                                        <img src={avatar.src} alt="about-avatar" />
-                                    </div>
-                                    <div className="about__two-right-btn-author-name">
-                                        <span className="text-one">{aboutData?.author_name}</span>
-                                        <h6>{aboutData?.author_sub}</h6>
-                                    </div>
                                 </div>
                             </div>
                         </div>

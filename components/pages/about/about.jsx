@@ -7,8 +7,8 @@ const AboutMain = () => {
         image_1: '/assets/img/about/about-7.jpg',
         image_2: '/assets/img/about/about-8.jpg',
         subtitle: 'Our Company',
-        title: 'Find out more about our business consulting',
-        description: 'Fusce quis lacus laoreet, dignissim quam eu, scelerisque tortor. Cras volutpat aliquet efficitur. Quisque dignissim justo ac erat tincidunt tristique. Curabitur id tortor ipsum. Suspendisse suscipit commodo turpis eu interdum',
+        title: 'Building Trust, Delivering Excellence',
+        description: 'TOTAL General Trading & Contracting Co. (TOTAL GTCC) is a Kuwait-based company dedicated to delivering quality industrial trading, contracting, ICT, and integrated solutions for Oil & Gas, Utilities, and Security industries. With a commitment to excellence and customer satisfaction, TOTAL has grown into a trusted partner, offering reliable services, innovative business approaches, and long-term relationships that ensure value for our clients across multiple sectors.',
         btn_text: 'Discover More',
         btn_href: '/about-us',
         shape_1: '/assets/img/shape/about-1.png',
@@ -26,8 +26,8 @@ const AboutMain = () => {
                                     <img src={aboutContent.image_2} alt="image" />
                                 </div>
                                 <div className="about__company-left-experience">
-                                    <h2><Count number={180} />+</h2>
-                                    <h6>Get national Award</h6>
+                                    <h2><Count number={20} />+</h2>
+                                    <h6> Years of Excellence</h6>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 "use client"
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-one";
+import HeaderOne from "@/components/layout/headers/header-two";
 import BreadCrumb from "../common/breadcrumb";
 import FooterTwo from "@/components/layout/footers/footer-two";
 import Form from "./form";

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
-import videoBg from "../../../../public/assets/img//pages/solution.jpg";
+import videoBg from "../../../../public/assets/img//pages/section3.jpg";
 
 
 const Video = () => {
@@ -16,12 +16,12 @@ const Video = () => {
                     <div className="row align-items-center">
                         <div className="col-xl-9">
                             <div className="solution__area-title">
-                                <span className="subtitle-two">Digital Solution</span>
-                                <h1>Good business planning ensure success.</h1>
-                                <Link className="btn-five" href="/request-quote">Request Quote<i className="far fa-chevron-double-right"></i></Link>
+                                <span className="subtitle-two">RELIABLE PARTNER</span>
+                                <h1>Engineering Trust. Delivering Value.</h1>
+                                <Link className="btn-five" href="/request-quote">CONTACT US<i className="far fa-chevron-double-right"></i></Link>
                             </div>					
                         </div>
-                        <div className="col-xl-3">
+                        {/* <div className="col-xl-3">
                             <div className="solution__area-right">
                                 <div className="solution__area-right-video">
                                     <div className="solution__area-right-icon video video-pulse">
@@ -30,7 +30,7 @@ const Video = () => {
                                     <h6>Watch The Consulting Video</h6>
                                 </div>
                             </div>					
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

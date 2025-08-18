@@ -1,5 +1,5 @@
 import SEO from '@/components/data/seo';
-import HeaderOne from '@/components/layout/headers/header-one';
+import HeaderOne from '@/components/layout/headers/header-two';
 import React from 'react';
 import BreadCrumb from '../common/breadcrumb';
 import FooterTwo from '@/components/layout/footers/footer-two';
