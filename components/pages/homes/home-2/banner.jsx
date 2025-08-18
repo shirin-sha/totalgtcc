@@ -32,7 +32,7 @@ const BannerTwo = () => {
 							<div className="row">
 								<div className="col-xl-12">
 									<div className="banner__two-content">
-										<b className="subtitle">Conbix</b>
+										<b className="subtitle">Total GTCC</b>
 										<span>Welcome to TOTAL GTCC</span>
 										<h1>Engineering Solutions That Power Industries</h1>
 										<div className="banner__two-content-button">
@@ -52,7 +52,7 @@ const BannerTwo = () => {
 							<div className="row">
 								<div className="col-xl-12">
 									<div className="banner__two-content">
-										<b className="subtitle">Conbix</b>
+										<b className="subtitle">Total GTCC</b>
 										<span>TOTAL GTCC – Kuwait</span>
 										<h1>Trusted Partner in Energy & Industry</h1>
 										<div className="banner__two-content-button">
@@ -72,7 +72,7 @@ const BannerTwo = () => {
 							<div className="row">
 								<div className="col-xl-12">
 									<div className="banner__two-content">
-										<b className="subtitle">Conbix</b>
+										<b className="subtitle">Total GTCC</b>
 										<span>Driving Digital Transformation</span>
 										<h1>Innovative ICT & Smart Security Solutions</h1>
 										<div className="banner__two-content-button">
