@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import breadCrumbBg from "../../../public/assets/img/pages/page-banner.jpg";
+import breadCrumbBg from "../../../public/assets/img/pages/pagetitlebanner.jpg";
 
 const BreadCrumb = ({title, innerTitle}) => {
     const firstThreeWords = title?.split(' ').slice(0, 1);
