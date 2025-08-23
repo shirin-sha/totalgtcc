@@ -32,28 +32,45 @@
 
 /* Clients refined grid */
 .client-logo-card {
-	background: rgba(154,163,228,0.08);
 	border: 1px solid rgba(154,163,228,0.3);
-	border-radius: 10px;
-	padding: 18px;
+	border-radius: 16px;
+	padding: 28px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	transition: all 0.25s ease;
+	min-height: 260px;
+	background-color: transparent;
 }
 .client-logo {
-	max-width: 120px;
-	max-height: 40px;
-	opacity: 0.85;
+	max-width: 240px;
+	max-height: 110px;
+	opacity: 0.95;
+	filter: none;
 	transition: all 0.25s ease;
 }
 .client-logo-card:hover {
 	border-color: var(--brand-blue);
-	box-shadow: 0 6px 18px rgba(38,52,149,0.12);
+	box-shadow: 0 10px 28px rgba(38,52,149,0.14);
+	transform: translateY(-2px);
 }
 .client-logo-card:hover .client-logo {
-	filter: grayscale(0%);
+	filter: none;
 	opacity: 1;
+}
+.client-name {
+	text-align: center;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.45;
+	margin-top: 16px;
+	color: #0b1324;
+}
+@media (max-width: 575.98px) {
+	.client-logo { max-width: 200px; max-height: 95px; }
+	.client-logo-card { min-height: 230px; padding: 22px; }
+	.client-name { font-size: 15px; }
 }
 
 /* Portfolio filter inverse: show content by default, reveal image on hover */
@@ -63,3 +80,60 @@
 .project__one.inverse .project__one-item:hover::before { opacity: 0; }
 .project__one.inverse .project__one-item:hover .project__one-item-content { opacity: 0; }
 .project__one.inverse .project__one-item:hover .project__one-item-icon { opacity: 0; }
+
+/* Brands carousel */
+.brands__swiper {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.brand__item {
+	transition: all 0.25s ease;
+	min-height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+.brand__item:hover {
+
+}
+.brand__logo {
+	max-width: 260px;
+	max-height: 200px;
+	opacity: 1;
+	display: block;
+	object-fit: contain;
+}
+@media (max-width: 575.98px) {
+	.brand__logo { max-width: 210px; max-height: 100px; }
+	.brand__item { min-height: 160px; padding: 20px; }
+}
+
+.header__area-menubar-right-box-contact {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.header__area-menubar-right-box-contact-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 34px;
+	height: 34px;
+}
+.header__area-menubar-right-box-contact-info {
+	padding-left: 4px;
+}
+
+/* Header logo overrides */
+.header__area-menubar-left-logo a img {
+	max-width: 220px; /* allow larger than theme default 165px */
+	height: auto;
+	width: auto;
+	object-fit: contain;
+}
+@media (max-width: 1079px) {
+	.header__area-menubar-left-logo a img { max-width: 94px; }
+
+}
+

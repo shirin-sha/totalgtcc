@@ -1385,11 +1385,7 @@ Space And Container CSS
   padding: 0 12px;
 }
 
-.auto__container {
-  max-width: 1720px;
-  margin: 0 auto;
-  padding: 0 12px;
-}
+
 
 .mt-0 {
   margin-top: 0px;
@@ -3505,20 +3501,6 @@ Top Bar Three CSS
   margin-right: 10px;
 }
 
-@media (max-width: 1600px) {
-  .top__bar::after {
-    transform: rotate(20deg);
-  }
-}
-@media (max-width: 1480px) {
-  .top__bar::before {
-    width: 33%;
-  }
-  .top__bar::after {
-    transform: rotate(20deg);
-    left: 33%;
-  }
-}
 @media (max-width: 1320px) {
   .top__bar::before {
     width: 36%;
@@ -3633,7 +3615,7 @@ Menu Bar CSS
   align-items: center;
 }
 .header__area-menubar-left-logo a img {
-  max-width: 165px;
+  max-width: 94px;
   position: relative;
   z-index: 9999;
 }
@@ -3955,10 +3937,8 @@ Menu Bar CSS
 .header__area-menubar-right-box-contact {
   display: flex;
   align-items: center;
-  gap: 20px;
   border-left: 1px solid var(--border-color-1);
-  padding-left: 50px;
-  margin-left: 70px;
+  padding-left: 10px;
 }
 .header__area-menubar-right-box-contact-icon i {
   color: var(--primary-color-2);
@@ -4072,7 +4052,6 @@ Menu Bar CSS
 .header__area-menubar-right-btn .btn-six {
   color: var(--text-white);
   border-color: var(--text-white);
-  margin-left: 100px;
 }
 .header__area-menubar-right-btn .btn-six:hover {
   color: var(--bg-heading-color);
@@ -4311,7 +4290,7 @@ Responsive Menu Css
   color: var(--primary-color-3);
 }
 
-@media (max-width: 1720px) {
+/* @media (max-width: 1720px) {
   .header__area-menubar-right-box-contact {
     padding-left: 30px;
     margin-left: 40px;
@@ -4329,8 +4308,8 @@ Responsive Menu Css
     padding: 0 185px;
     padding-right: 210px;
   }
-}
-@media (max-width: 1600px) {
+} */
+/* @media (max-width: 1600px) {
   .header__area-menubar.two .header__area-menubar-right-btn {
     margin-top: -8px;
   }
@@ -4361,18 +4340,8 @@ Responsive Menu Css
   .header__two::before {
     width: 88%;
   }
-}
-@media (max-width: 1599px) {
-  .header__two::after {
-    width: 93%;
-  }
-  .header__two::before {
-    width: 92%;
-  }
-  .header__two-topbar .borders {
-    padding: 0 260px;
-  }
-}
+} */
+
 @media (max-width: 1399px) {
   .header__area-menubar-right-btn .btn-six {
     padding: 14px 30px;
@@ -4456,6 +4425,7 @@ Responsive Menu Css
   }
   .header__area-menubar.two .header__area-menubar-left-logo .two {
     display: block;
+    max-width: 94px;;
   }
   .header__area-menubar.two .header__area-menubar-right {
     display: none;
@@ -5416,7 +5386,7 @@ About Two CSS
   border-right: 1px solid var(--border-color-2);
 }
 .about__two-right-experience h6 {
-  max-width: 300px;
+  max-width: 187px;
 }
 
 /*==========================================================================
@@ -8960,7 +8930,7 @@ Solution Two CSS
   height: 90px;
   line-height: 90px;
   text-align: center;
-  background: var(--primary-color-2);
+  background: var(--color-17);
   border-radius: 50%;
   margin-bottom: 20px;
 }

@@ -6,11 +6,11 @@ Space And Container CSS
 	margin: 0 auto;
     padding: 0 12px;
 }
-.auto__container {
-	max-width: 1720px;
-	margin: 0 auto;
-    padding: 0 12px;
-}
+// .auto__container {
+// 	max-width: 1720px;
+// 	margin: 0 auto;
+//     padding: 0 12px;
+// }
 @for $i from 0 to 25 {
     .mt-#{5 * $i}{
         margin-top: 5px * $i;

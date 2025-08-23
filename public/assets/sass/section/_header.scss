@@ -797,118 +797,78 @@ Responsive Menu Css
         color: var(--primary-color-3); 
     }
 }
-@media (max-width: 1720px) {
-    .header__area-menubar {
-        &-right-box-contact {
-            padding-left: 30px;
-            margin-left: 40px;
-        }
-        &-center.two {
-            margin-left: 0;
-        }
-    }
-    .header__two {
-        &::after {
-            width: 86%;
-        }
-        &::before {
-            width: 82%;
-        }
-        &-topbar {
-            .borders {
-                padding: 0 185px;
-                padding-right: 210px;
-            }
-        }
-    }
-}
+
+// @media (max-width: 1600px) {
+//     .header__area-menubar {
+//         &.two {
+//             .header__area-menubar-right-btn {
+//                 margin-top: -8px;
+//             }
+        
+//         }
+//         &-right {
+//             &-box {
+//                 &-contact {
+//                     padding-left: 20px;
+//                     margin-left: 0;
+//                     border: 0;
+//                 }                
+//                 &-btn {
+//                     margin-left: 45px;
+//                 }
+//             }
+//             &-sidebar-popup-icon {
+//                 margin-left: 45px;
+//                 padding-left: 45px;
+//             }
+//             &-btn .btn-six {
+//                 padding: 14px 32px;
+//             }
+//         }
+//     }    
+//     .header__two {
+//         .borders {
+//             padding: 0 210px;
+//         }
+//         &::after {
+//             width: 88%;
+//         }
+//         &::before {
+//             width: 88%;
+//         }
+//     }
+// }
+
+// @media (max-width: 1399px) {
+//     .header__area-menubar-right {
+//         &-btn .btn-six {
+//             padding: 14px 30px;
+//         }
+//         &-sidebar-popup {
+//             padding: 70px 40px;
+//         } 
+//     }
+//     .header__two {
+//         padding: 0 10px;
+//         &::after {
+//             width: 94%;
+//         }
+//         &::before {
+//             width: 91%;
+//         }
+//         &-topbar {
+//             & .borders {
+//                 padding: 0 180px;
+//                 padding-right: 200px;
+//             }
+//         }
+//     } 
+//     .header__area-menubar.three {
+//         padding: 0 20px;
+//         position: relative;
+//     }    
+// }
 @media (max-width: 1600px) {
-    .header__area-menubar {
-        &.two {
-            .header__area-menubar-right-btn {
-                margin-top: -8px;
-            }
-            .header__area-menubar-right-box-search {
-                display: none;
-            }
-        }
-        &-right {
-            &-box {
-                &-contact {
-                    padding-left: 0;
-                    margin-left: 0;
-                    border: 0;
-                }                
-                &-btn {
-                    margin-left: 45px;
-                }
-            }
-            &-sidebar-popup-icon {
-                margin-left: 45px;
-                padding-left: 45px;
-            }
-            &-btn .btn-six {
-                padding: 14px 32px;
-            }
-        }
-    }    
-    .header__two {
-        .borders {
-            padding: 0 210px;
-        }
-        &::after {
-            width: 88%;
-        }
-        &::before {
-            width: 88%;
-        }
-    }
-}
-@media (max-width: 1599px) {
-    .header__two {
-        &::after {
-            width: 93%;
-        }
-        &::before {
-            width: 92%;
-        }
-        &-topbar {
-            .borders {
-                padding: 0 260px;
-            }
-        }
-    }    
-}
-@media (max-width: 1399px) {
-    .header__area-menubar-right {
-        &-btn .btn-six {
-            padding: 14px 30px;
-        }
-        &-sidebar-popup {
-            padding: 70px 40px;
-        } 
-    }
-    .header__two {
-        padding: 0 10px;
-        &::after {
-            width: 94%;
-        }
-        &::before {
-            width: 91%;
-        }
-        &-topbar {
-            & .borders {
-                padding: 0 180px;
-                padding-right: 200px;
-            }
-        }
-    } 
-    .header__area-menubar.three {
-        padding: 0 20px;
-        position: relative;
-    }    
-}
-@media (max-width: 1350px) {
     .header__two {
         background: var(--bg-white);
         padding: 0;
@@ -1040,13 +1000,13 @@ Responsive Menu Css
         }
     }
 }
-@media (max-width: 991px) {
+@media (max-width: 1079px) {
     .header__area {
         position: sticky;
         z-index: 9;
         &-menubar {
             &-left-logo a img {
-                max-width: 150px;
+                max-width: 94px;
             }
             &-center {
                 display: none;

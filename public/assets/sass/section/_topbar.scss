@@ -138,13 +138,13 @@ Top Bar Three CSS
         }
     }    
 }
-@media (max-width: 1600px) {
-    .top__bar {
-        &::after {
-            transform: rotate(20deg);
-        }
-    }
-}
+// @media (max-width: 1600px) {
+//     .top__bar {
+//         &::after {
+//             transform: rotate(20deg);
+//         }
+//     }
+// }
 @media (max-width: 1480px) {
     .top__bar {
         &::before {

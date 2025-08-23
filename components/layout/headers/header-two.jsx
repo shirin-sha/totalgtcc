@@ -1,15 +1,17 @@
 "use client";
 import Social from '@/components/data/social';
 import Link from 'next/link';
-import logo1 from "../../../public/assets/img/logowhite-535x180.png";
-import logo2 from "../../../public/assets/img/logo-5.png";
+import logo1 from "../../../public/assets/img/logowhite300.png";
+import logo2 from "../../../public/assets/img/300-pxl.png";
 import logo3 from "../../../public/assets/img/logo-4.png";
 import MainMenu from './header-menu';
 import { useState } from 'react';
 import MobileMenuOne from './menu_sidebar/menu-one';
+import Search from './search';
 
 const HeaderTwo = () => {
     const [menuSidebar, setMenuSidebar] = useState(false);
+    const [search, setSearch] = useState(false);
     return (
         <>
             <div className="header__two">
@@ -18,7 +20,7 @@ const HeaderTwo = () => {
                         <div className="row align-items-center borders">
                             <div className="col-xl-6 col-sm-8">
                                 <div className="header__two-topbar-left sm-t-center">
-                                    <Link href="#"><i className="far fa-clock"></i>Office Hours: Sunday – Thursday 09 to 04 PM</Link>
+                                    <Link href="#"><i className="far fa-clock"></i>Working Hours : Monday - Friday 9: - 5 PM</Link>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-sm-4">
@@ -34,8 +36,8 @@ const HeaderTwo = () => {
                         <div className="header__area-menubar-left">
                             <div className="header__area-menubar-left-logo">
                                 <Link href='/'>
-                                    <img className='one' src={logo1.src} alt='logo' style={{ maxHeight: 56, height: 'auto', width: 'auto', objectFit: 'contain' }} />
-                                    {/* <img className="two" src={logo2.src} alt="logo" /> */}
+                                    <img className='one' src={logo1.src} alt='logo' />
+                                    <img className="two" src={logo2.src} alt="logo" />
                                     {/* <img className="light" src={logo3.src} alt="logo" /> */}
                                 </Link>
                             </div>
@@ -51,9 +53,9 @@ const HeaderTwo = () => {
                                     <div className="header__area-menubar-right-box-contact-icon">
                                         <i className="fal fa-envelope-open-text"></i>
                                     </div>
-                                    <div className="header__area-menubar-right-box-contact-info">
+                                    <div className="header__area-menubar-right-box-contact-info d-none d-xl-block">
                                         <span className="text-four">Need Help</span>
-                                        <h6><Link href="mailto:info@totalgtcc.com">info@totalgtcc.com</Link></h6>
+                                        <h6><Link href="mailto:conbix@gmail.com">conbix@gmail.com</Link></h6>
                                     </div>
                                 </div>
                                 <div className="header__area-menubar-right-responsive-menu menu__bar">
