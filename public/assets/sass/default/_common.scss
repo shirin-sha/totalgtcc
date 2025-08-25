@@ -923,3 +923,13 @@ Animation CSS
 .swiper-button-next::after {
 	display: none;
 }
+.btn-small {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 8px 16px;
+	border-radius: 4px;
+	i {
+		margin-left: 10px;
+		font-size: 12px;
+	}
+}

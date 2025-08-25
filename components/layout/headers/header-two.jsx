@@ -19,11 +19,11 @@ const HeaderTwo = () => {
                     <div className="container">
                         <div className="row align-items-center borders">
                             <div className="col-xl-6 col-sm-8">
-                                <div className="header__two-topbar-left sm-t-center">
+                                <div className="header__two-topbar-left sm-t-center" style={{paddingTop:'10px'}} >
                                     <Link href="#"><i className="far fa-clock"></i>Working Hours : Monday - Friday 9: - 5 PM</Link>
                                 </div>
                             </div>
-                            <div className="col-xl-6 col-sm-4">
+                            <div className="col-xl-6 col-sm-4" style={{paddingTop:'10px'}}>
                                 <div className="header__two-topbar-social t-right sm-t-center">
                                     <Social />
                                 </div>
@@ -42,6 +42,7 @@ const HeaderTwo = () => {
                                 </Link>
                             </div>
                         </div>
+                        <div>
                         <div className="header__area-menubar-center two">
                             <div className="header__area-menubar-center-menu two menu-responsive">
                                 <MainMenu />
@@ -49,22 +50,14 @@ const HeaderTwo = () => {
                         </div>
                         <div className="header__area-menubar-right">
                             <div className="header__area-menubar-right-box">
-                                <div className="header__area-menubar-right-box-contact">
-                                    <div className="header__area-menubar-right-box-contact-icon">
-                                        <i className="fal fa-envelope-open-text"></i>
-                                    </div>
-                                    <div className="header__area-menubar-right-box-contact-info d-none d-xl-block">
-                                        <span className="text-four">Need Help</span>
-                                        <h6><Link href="mailto:info@totalgtcc.com">info@totalgtcc.com</Link></h6>
-                                    </div>
-                                </div>
+                              
                                 <div className="header__area-menubar-right-responsive-menu menu__bar">
                                     <i className="flaticon-menu" onClick={() => setMenuSidebar(true)}></i>
                                 </div>
                             </div>
-                        </div>
+                        </div></div>
                         <div className="header__area-menubar-right-btn">
-                            <Link className="btn-six" href="/request-quote">Profile <i className="far fa-download"></i></Link>
+                            <Link className="btn-six btn-small" style={{ fontSize: '14px', lineHeight: '22px', padding: '8px 16px',}} href="/request-quote">Profile <i className="far fa-download"></i></Link>
                         </div>
                     </div>
                 </div>

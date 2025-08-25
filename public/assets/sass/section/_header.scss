@@ -554,6 +554,16 @@ Menu Bar CSS
                         border-color: var(--text-white);
                     }
                 }
+                .btn-six.btn-small {
+                    font-size: 14px;
+                    line-height: 22px;
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                    i {
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
+                }
             }
             &-responsive-menu i {
                 display: block;
@@ -764,7 +774,7 @@ Responsive Menu Css
 }
 .mean-container .mean-bar {
 	padding: 0;
-	border-bottom: 1px solid var(--color-11);
+	// border-bottom: 1px solid var(--color-11);
     overflow: hidden;
 }
 .mean-container .mean-nav ul li a,
