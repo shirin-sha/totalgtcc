@@ -137,3 +137,30 @@
 
 }
 
+/* Header Two: Profile button alignment and sizing */
+.header__profile-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 8px 16px; /* ensure small size matches theme */
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+.header__profile-btn .label {
+	display: inline-block;
+}
+.header__profile-btn i {
+	font-size: 12px;
+	margin-left: 0; /* gap handles spacing */
+	line-height: 1;
+}
+
+/* Remove top border between mobile menu items */
+.mean-container .mean-nav ul li a,
+.mean-container .mean-nav ul li li a {
+	border-top: 0;
+}
+

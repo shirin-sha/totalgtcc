@@ -19,7 +19,7 @@ const HeaderTwo = () => {
                     <div className="container">
                         <div className="row align-items-center borders">
                             <div className="col-xl-6 col-sm-8">
-                                <div className="header__two-topbar-left sm-t-center" >
+                                <div className="header__two-topbar-left sm-t-center">
                                     <Link href="#"><i className="far fa-clock"></i>Working Hours : Monday - Friday 9: - 5 PM</Link>
                                 </div>
                             </div>
@@ -32,11 +32,11 @@ const HeaderTwo = () => {
                     </div>
                 </div>
                 <div className="auto__container pl-35 pr-35">
-                    <div className="header__area-menubar two" style={{ paddingBottom: '18px' }}>
+                    <div className="header__area-menubar two" >
                         <div className="header__area-menubar-left">
                             <div className="header__area-menubar-left-logo">
                                 <Link href='/'>
-                                    <img className='one' src={logo1.src} alt='logo' />
+                                    <img className='one' src={logo1.src} alt='logo' style={{marginTop:'-36px',marginLeft:'106px'}}/>
                                     <img className="two" src={logo2.src} alt="logo" />
                                     {/* <img className="light" src={logo3.src} alt="logo" /> */}
                                 </Link>
@@ -57,7 +57,10 @@ const HeaderTwo = () => {
                             </div>
                         </div></div>
                         <div className="header__area-menubar-right-btn">
-                            <Link className="btn-six btn-small" style={{ fontSize: '14px', lineHeight: '22px', padding: '8px 16px',}} href="/request-quote">Profile <i className="far fa-download"></i></Link>
+                            <Link className="btn-six btn-small header__profile-btn" style={{marginRight:'100px'}} href="/request-quote">
+                                <span className="label">Profile</span>
+                                <i className="far fa-download" aria-hidden="true"></i>
+                            </Link>
                         </div>
                     </div>
                 </div>

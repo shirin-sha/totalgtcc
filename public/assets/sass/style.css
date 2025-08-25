@@ -184,7 +184,7 @@ input[type=submit] {
   border-radius: 6px;
   background: var(--primary-color-1);
   color: var(--text-white);
-  padding: 17px 40px;
+  /* padding: 17px 40px; */
 }
 
 button:hover,
@@ -471,7 +471,7 @@ Conbix Button And Title Styles CSS
   align-items: center;
   font-size: 16px;
   line-height: 26px;
-  padding: 17px 43px;
+  /* padding: 17px 43px; */
   text-align: center;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -4074,7 +4074,7 @@ Menu Bar CSS
   display: none;
 }
 .header__area-menubar.two .header__area-menubar-right-btn {
-  margin-top: -10px;
+  margin-top: -45px;
 }
 .header__area-menubar.two .header__area-menubar-right-box-search-box button {
   color: var(--primary-color-2);
@@ -4140,7 +4140,7 @@ Header Two CSS
   z-index: -1;
 }
 .header__two-topbar {
-
+padding:9px 0;
 }
 .header__two-topbar .borders {
   padding: 0 130px;
@@ -4403,7 +4403,7 @@ Responsive Menu Css
     color: var(--text-white);
     background: var(--primary-color-2);
     border: 0;
-    padding: 17px 43px;
+    /* padding: 17px 43px; */
   }
   .header__area-menubar-right-btn .btn-six::before {
     background: var(--bg-heading-color);
