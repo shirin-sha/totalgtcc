@@ -18,7 +18,7 @@ const Video = () => {
                             <div className="solution__area-title">
                                 <span className="subtitle-two">RELIABLE PARTNER</span>
                                 <h1>Engineering Trust. Delivering Value.</h1>
-                                <Link className="btn-five" href="/request-quote">CONTACT US<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="btn-five" href="/contact">CONTACT US<i className="far fa-chevron-double-right"></i></Link>
                             </div>					
                         </div>
                         {/* <div className="col-xl-3">

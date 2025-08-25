@@ -35,7 +35,7 @@ const ServicesSingleMain = ({serviceDetails}) => {
 								</div>
 								<div className="all__sidebar-help">
 									<div className="all__sidebar-help-image">
-										<img className="img__full" src="../assets/img/pages/help.jpg" alt="image" />
+										<img className="img__full" src="../assets/img/pages/Services-Detail-Page-Sidebar.jpg" alt="image" />
 										<div className="all__sidebar-help-image-content">
 											{/* <img src="../assets/img/favicon-1.png" alt="icon" /> */}
 											<h4>Consult with Our Engineering Team</h4>
