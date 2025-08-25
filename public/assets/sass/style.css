@@ -4065,7 +4065,7 @@ Menu Bar CSS
   color: var(--primary-color-1);
 }
 .header__area-menubar.two {
-  align-items: initial;
+  align-items: center;
 }
 .header__area-menubar.two .header__area-menubar-left-logo {
   margin-top: -8px;
@@ -4140,7 +4140,7 @@ Header Two CSS
   z-index: -1;
 }
 .header__two-topbar {
-  padding: 9px 0;
+
 }
 .header__two-topbar .borders {
   padding: 0 130px;
@@ -5211,7 +5211,7 @@ About One CSS
 }
 .about__one-left-image {
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 20px;
 }
 .about__one-left-image img {

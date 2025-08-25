@@ -32,7 +32,7 @@ const HeaderTwo = () => {
                     </div>
                 </div>
                 <div className="auto__container pl-35 pr-35">
-                    <div className="header__area-menubar two">
+                    <div className="header__area-menubar two" style={{ paddingBottom: '18px' }}>
                         <div className="header__area-menubar-left">
                             <div className="header__area-menubar-left-logo">
                                 <Link href='/'>
