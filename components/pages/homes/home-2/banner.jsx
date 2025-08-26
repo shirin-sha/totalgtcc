@@ -36,7 +36,7 @@ const BannerTwo = () => {
 										<span>Welcome to TOTAL GTCC</span>
 										<h1>Engineering Solutions That Power Industries</h1>
 										<div className="banner__two-content-button">
-											<Link className="btn-five" href="/portfolio/3-columns"> EXPLORE OUR SERVICES<i className="far fa-chevron-double-right"></i></Link>
+											<Link className="btn-five" href="/services"> EXPLORE OUR SERVICES<i className="far fa-chevron-double-right"></i></Link>
 										</div>
 										{/* <img className="banner__two-image-shape-one" src="assets/img/shape/banner-1.png" alt="shape" /> */}
 									</div>
@@ -56,7 +56,7 @@ const BannerTwo = () => {
 										<span>TOTAL GTCC – Kuwait</span>
 										<h1>Trusted Partner in Energy & Industry</h1>
 										<div className="banner__two-content-button">
-											<Link className="btn-five" href="/about-us"> VIEW OUR PROJECTS<i className="far fa-chevron-double-right"></i></Link>
+											<Link className="btn-five" href="/projects"> VIEW OUR PROJECTS<i className="far fa-chevron-double-right"></i></Link>
 										</div>
 										{/* <img className="banner__two-image-shape-one" src="assets/img/shape/banner-1.png" alt="shape" /> */}
 									</div>
@@ -74,7 +74,10 @@ const BannerTwo = () => {
 									<div className="banner__two-content">
 										<b className="subtitle">Total</b>
 										<span>Driving Digital Transformation</span>
-										<h1>Innovative ICT & Smart Security Solutions</h1>
+										<h1>Innovative ICT & Smart Security Solutions</h1>	
+										<div className="banner__two-content-button">
+											<Link className="btn-five" href="/about-us"> Discover More<i className="far fa-chevron-double-right"></i></Link>
+										</div>
 										{/* <img className="banner__two-image-shape-one" src="assets/img/shape/banner-1.png" alt="shape" /> */}
 									</div>
 									{/* <img className="banner__two-image-shape-two" src="assets/img/shape/banner-2.png" alt="shape" /> */}

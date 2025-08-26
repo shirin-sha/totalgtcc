@@ -4720,7 +4720,7 @@ Banner Two CSS
   z-index: -1;
 }
 .banner__two-content > span {
-  color: var(--primary-color-2);
+  color: var(--text-white);
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
