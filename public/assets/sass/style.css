@@ -8520,7 +8520,7 @@ Portfolio Two CSS
 .portfolio-item.active::after {
   content: "";
   position: absolute;
-  background-image: url("../../assets/img/shape/Image.png");
+  /* background-image: url("../../assets/img/shape/Image.png"); */
   height: 100%;
   width: 20%;
   top: 0;
