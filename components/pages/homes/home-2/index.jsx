@@ -27,7 +27,7 @@ const HomeTwo = ({addClass}) => {
 	];
 	return (
 		<>
-			<SEO pageTitle="Consulting Business" />
+			<SEO pageTitle="Home" />
 			<SwitchTab addClass={addClass} />
 			<HeaderTwo />
 			<BannerTwo />
