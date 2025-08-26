@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatWeDo = () => {
 	return (
-		<div className="about__what-we-do section-padding">
+		<div className="about__what-we-do pb-section">
 			<div className="container">
 				<div className="row align-items-end mb-30">
 					<div className="col-xl-7 col-lg-8">

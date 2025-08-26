@@ -471,7 +471,7 @@ Conbix Button And Title Styles CSS
   align-items: center;
   font-size: 16px;
   line-height: 26px;
-  /* padding: 17px 43px; */
+  padding: 17px 43px;
   text-align: center;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -4403,7 +4403,7 @@ Responsive Menu Css
     color: var(--text-white);
     background: var(--primary-color-2);
     border: 0;
-    /* padding: 17px 43px; */
+    padding: 17px 43px;
   }
   .header__area-menubar-right-btn .btn-six::before {
     background: var(--bg-heading-color);
@@ -5188,6 +5188,27 @@ Banner Four CSS
     line-height: 51px;
   }
 }
+
+/* Video Section Specific Styling */
+.solution__area-title .subtitle-two {
+  color: var(--text-white);
+}
+.solution__area-title .subtitle-two::before {
+  background: var(--text-white);
+}
+.solution__area-title .subtitle-two::after {
+  background: var(--text-white);
+}
+
+/* About Page Padding Fix */
+.pb-section {
+  padding-bottom: 120px;
+}
+@media (max-width: 575px) {
+  .pb-section {
+    padding-bottom: 90px;
+  }
+}
 /*==========================================================================
 About One CSS
 ==========================================================================*/
@@ -5386,7 +5407,7 @@ About Two CSS
   border-right: 1px solid var(--border-color-2);
 }
 .about__two-right-experience h6 {
-  max-width: 187px;
+  /* max-width: 187px; */
 }
 
 /*==========================================================================
@@ -5686,7 +5707,7 @@ About Solution CSS
   background: var(--bg-heading-color);
   width: 100%;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.5;
   left: 0;
   top: 0;
   z-index: -1;
@@ -9142,7 +9163,7 @@ Subscribe One CSS
   width: 100%;
   height: 100%;
   background: var(--bg-heading-color);
-  opacity: 0.7;
+  opacity: 0.1;
   z-index: -1;
 }
 .subscribe__area-bg::after {

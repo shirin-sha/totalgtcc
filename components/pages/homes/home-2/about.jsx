@@ -10,7 +10,7 @@ const About = () => {
     const aboutData = {
         subtitle: 'ABOUT COMPANY',
         title: 'Trusted Partner in Energy & Industry',
-        description: 'TOTAL GTCC delivers innovative trading, contracting, and ICT solutions across energy and industrial sectors. We provide reliable services, advanced technologies, and strong partnerships to ensure performance, safety, and sustainable growth for our clients.',
+        description: 'TOTAL GTCC provides innovative trading, contracting, and ICT solutions. We ensure reliable services with advanced technologies. Our focus is performance, safety, and sustainable growth.',
         count: 20,
         exp: 'Years of Excellence in Industrial & Engineering Services',
         btn_title: 'LEARN MORE',

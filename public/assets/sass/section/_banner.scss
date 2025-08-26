@@ -184,7 +184,7 @@ Banner Two CSS
             z-index: -1;     
         }
         > span {
-            color: var(--primary-color-2);
+            color: var(--text-white);
             font-weight: 700;
             font-size: 20px;
             line-height: 28px;
@@ -714,5 +714,26 @@ Banner Four CSS
                 line-height: 51px;
             }
         }
+    }
+}
+
+/* Video Section Specific Styling */
+.solution__area-title {
+    .subtitle-two {
+        color: var(--text-white);
+        &::before {
+            background: var(--text-white);
+        }
+        &::after {
+            background: var(--text-white);
+        }
+    }
+}
+
+/* About Page Padding Fix */
+.pb-section {
+    padding-bottom: 120px;
+    @media (max-width: 575px) {
+        padding-bottom: 90px;
     }
 }

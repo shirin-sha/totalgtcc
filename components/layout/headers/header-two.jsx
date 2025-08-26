@@ -57,7 +57,7 @@ const HeaderTwo = () => {
                             </div>
                         </div></div>
                         <div className="header__area-menubar-right-btn">
-                            <Link className="btn-six btn-small header__profile-btn" style={{marginRight:'100px'}} href="/request-quote">
+                            <Link className="btn-six header__profile-btn" style={{marginRight:'100px',padding:'8px 16px'}} href="#">
                                 <span className="label">Profile</span>
                                 <i className="far fa-download" aria-hidden="true"></i>
                             </Link>

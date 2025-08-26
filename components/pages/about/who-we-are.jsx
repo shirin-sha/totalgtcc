@@ -54,7 +54,7 @@ value.</p>
                         <div className="col-xl-4">
                             <div className="about__solution-right t-right xl-t-center">						
                                 <Link className="btn-one" href="/contact">CONTACT US<i className="far fa-chevron-double-right"></i></Link>
-                                <img className="about__solution-right-shape left-right-animate" src={shape.src} alt="shape" />
+                                {/* <img className="about__solution-right-shape left-right-animate" src={shape.src} alt="shape" /> */}
                             </div>
                         </div>
                     </div>

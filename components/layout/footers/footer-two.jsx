@@ -4,7 +4,7 @@ import Link from "next/link";
 import logo1 from "../../../public/assets/img/logowhite-535x180.png";
 import logo2 from "../../../public/assets/img/logowhite94.png";
 import blogData from "@/components/data/blog-data";
-import footerBg from "../../../public/assets/img/pages/stayconnect.jpg";
+import footerBg from "../../../public/assets/img/pages/stayconnect2.jpg";
 
 const FooterTwo = () => {
 	const blogPost = blogData.slice(0, 2);

@@ -12,10 +12,10 @@ const Video = () => {
     return (
         <>
             <div className="solution__area section-padding" style={{backgroundImage: `url(${videoBg.src})`}}>
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-xl-9">
-                            <div className="solution__area-title">
+                <div className="container" >
+                    <div className="row align-items-center" >
+                        <div className="col-xl-9"> 
+                            <div className="solution__area-title" >
                                 <span className="subtitle-two">RELIABLE PARTNER</span>
                                 <h1>Engineering Trust. Delivering Value.</h1>
                                 <Link className="btn-five" href="/contact">CONTACT US<i className="far fa-chevron-double-right"></i></Link>

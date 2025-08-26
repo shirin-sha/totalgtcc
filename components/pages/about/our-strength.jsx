@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurStrength = () => {
 	return (
-		<div className="about__our-strength section-padding">
+		<div className="about__our-strength pb-section">
 			<div className="container">
 				<div className="row align-items-end mb-30">
 					<div className="col-xl-8 col-lg-9">
