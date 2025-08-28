@@ -33,7 +33,7 @@ const BannerTwo = () => {
 								<div className="col-xl-12">
 									<div className="banner__two-content">
 										<b className="subtitle">Total </b>
-										<span>Welcome to TOTAL GTCC</span>
+										<span>Welcome to TOTAL GTC</span>
 										<h1>Engineering Solutions That Power Industries</h1>
 										<div className="banner__two-content-button">
 											<Link className="btn-five" href="/services"> EXPLORE OUR SERVICES<i className="far fa-chevron-double-right"></i></Link>
@@ -53,7 +53,7 @@ const BannerTwo = () => {
 								<div className="col-xl-12">
 									<div className="banner__two-content">
 										<b className="subtitle">Total</b>
-										<span>TOTAL GTCC – Kuwait</span>
+										<span>TOTAL GTC – Kuwait</span>
 										<h1>Trusted Partner in Energy & Industry</h1>
 										<div className="banner__two-content-button">
 											<Link className="btn-five" href="/projects"> VIEW OUR PROJECTS<i className="far fa-chevron-double-right"></i></Link>

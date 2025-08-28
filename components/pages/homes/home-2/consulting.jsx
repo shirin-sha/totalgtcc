@@ -17,7 +17,7 @@ const Consulting = () => {
 							<div className="consulting__area-right-title">
 								<span className="subtitle-two">PREMIUM SERVICES</span>
 								<h2>Delivering Expertise. Building Trust.</h2>
-								<p>TOTAL GTCC combines industry knowledge and global partnerships to provide innovative solutions that enhance operations and strengthen long-term relationships.</p>
+								<p>TOTAL GTC combines industry knowledge and global partnerships to provide innovative solutions that enhance operations and strengthen long-term relationships.</p>
 							</div>
 							<div className="consulting__area-right-list">
 								<span><i className="far fa-check"></i>Industrial Training & Skill Development</span>

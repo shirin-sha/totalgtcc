@@ -124,7 +124,7 @@ sectors.
 					<div className="container">
 						<div className="row">
 							<div className="col-xl-12">
-								<p>© 2025 TOTAL GTCC – All Rights Reserved | Designed & Developed by Anathoth</p>
+								<p>© 2025 TOTAL GTC – All Rights Reserved | Designed & Developed by Anathoth</p>
 							</div>
 						</div>
 					</div>

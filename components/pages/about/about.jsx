@@ -8,7 +8,7 @@ const AboutMain = () => {
         image_2: '/assets/img/about/About-Us-Page-Section-1-Image-2.jpg',
         subtitle: 'Our Company',
         title: 'Building Trust, Delivering Excellence',
-        description: 'TOTAL General Trading & Contracting Co. (TOTAL GTCC) is a Kuwait-based company dedicated to delivering quality industrial trading, contracting, ICT, and integrated solutions for Oil & Gas, Utilities, and Security industries. With a commitment to excellence and customer satisfaction, TOTAL has grown into a trusted partner, offering reliable services, innovative business approaches, and long-term relationships that ensure value for our clients across multiple sectors.',
+        description: 'TOTAL General Trading & Contracting Co. (TOTAL GTC) is a Kuwait-based company dedicated to delivering quality industrial trading, contracting, ICT, and integrated solutions for Oil & Gas, Utilities, and Security industries. With a commitment to excellence and customer satisfaction, TOTAL has grown into a trusted partner, offering reliable services, innovative business approaches, and long-term relationships that ensure value for our clients across multiple sectors.',
         btn_href: '/about-us',
         shape_1: '/assets/img/shape/about-1.png',
         shape_2: '/assets/img/shape/about-2.png',
