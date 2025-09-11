@@ -30,7 +30,7 @@ const HeaderOne = ({variant}) => {
                     <div className="row">
                         						<div className="col-xl-5 col-md-6">
 							<div className="top__bar-left">
-								<Link href="#"><i className="far fa-clock"></i>Working Hours : Monday - Friday 9:00 - 5:00 PM</Link>
+								<Link href="#"><i className="far fa-clock"></i>Working Hours : Sunday - Thursday 9:00 - 4:00 PM</Link>
 							</div>
 						</div>
                         <div className="col-xl-7 col-md-6">

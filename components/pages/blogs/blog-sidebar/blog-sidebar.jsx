@@ -31,16 +31,7 @@ const BlogSidebar = () => {
                     ))}
                 </div>
             </div>
-            <div className="all__sidebar-item">
-                <h4>Popular Tag</h4>
-                <div className="all__sidebar-item-tag">
-                    <ul>
-                        {blogData.map((data, id) => (
-                            <li key={id}><Link href={`/blog/${data.id}`}>{data.title.split(' ').slice(0, 1).join(' ')}</Link></li>
-                        ))}
-                    </ul>
-                </div>
-            </div>
+         
         </div>
     );
 };

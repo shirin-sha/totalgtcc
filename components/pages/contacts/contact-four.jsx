@@ -56,7 +56,7 @@ const ContactFour = () => {
 									<div className="contact__two-left-item-info">
 										<span>Office Address</span>
 										<p>P.O. Box 5092, SAFAT 13051, Kuwait</p>
-										<p>Shuaiba Industrial Area, Block 100</p>
+										{/* <p>Shuaiba Industrial Area, Block 100</p> */}
 									</div>
 								</div>
 								<div className="contact__two-left-item-socialIcon">

@@ -20,7 +20,7 @@ const HeaderTwo = () => {
                         <div className="row align-items-center borders">
                             <div className="col-xl-6 col-sm-8">
                                 <div className="header__two-topbar-left sm-t-center">
-                                    <Link href="#"><i className="far fa-clock"></i>Working Hours : Monday - Friday 9: - 5 PM</Link>
+                                    <Link href="#"><i className="far fa-clock"></i>Working Hours : Sunday - Thursday 9: - 4 PM</Link>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-sm-4" >
