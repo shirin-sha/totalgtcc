@@ -3401,7 +3401,7 @@ Top Bar CSS
 .top__bar-left a {
   color: var(--text-white);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
 }
 .top__bar-left a i {

@@ -148,15 +148,7 @@
 	line-height: 22px;
 	border-radius: 4px;
 	text-transform: uppercase;
-	background: var(--primary-color-1);
-	color: var(--text-white);
 }
-.header__profile-btn:hover {
-	background: #000;
-	color: var(--text-white);
-}
-.header__profile-btn .label { color: inherit; }
-.header__profile-btn i { color: inherit; }
 .header__profile-btn .label {
 	display: inline-block;
 }
