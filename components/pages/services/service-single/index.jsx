@@ -1,5 +1,5 @@
 "use client"
-import HeaderOne from "@/components/layout/headers/header-two";
+import HeaderOne from "@/components/layout/headers/header-one";
 import BreadCrumb from "../../common/breadcrumb";
 import ServicesSingleMain from "./services-single";
 import SEO from "@/components/data/seo";

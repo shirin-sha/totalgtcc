@@ -6,8 +6,8 @@ import Search from './search';
 import { useEffect, useState } from 'react';
 import SideBar from './offcanvas';
 import MobileMenuOne from './menu_sidebar/menu-one';
-import logo1 from "../../../public/assets/img/logo-1.png";
-import logo2 from "../../../public/assets/img/logo-2.png";
+import logo1 from "../../../public/assets/img/300-pxl.png";
+import logo2 from "../../../public/assets/img/300-pxl.png";
 
 const HeaderOne = ({variant}) => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -28,14 +28,14 @@ const HeaderOne = ({variant}) => {
             <div className="top__bar">
                 <div className="container custom__container">
                     <div className="row">
-                        <div className="col-xl-5 col-md-6">
-                            <div className="top__bar-left">
-                                <Link href="https://www.google.com/maps"><i className="far fa-map-marker-alt"></i>8502 Preston Rd. Inglewood, Maine 98380</Link>
-                            </div>
-                        </div>
+                        						<div className="col-xl-5 col-md-6">
+							<div className="top__bar-left">
+								<Link href="#"><i className="far fa-clock"></i>Working Hours : Monday - Friday 9:00 - 5:00 PM</Link>
+							</div>
+						</div>
                         <div className="col-xl-7 col-md-6">
                             <div className="top__bar-right">
-                                <Link href="mailto:conbix@gmail.com"><i className="fas fa-envelope"></i>conbix@gmail.com</Link>
+                                <Link href="mailto:info@totalgtc.com"><i className="fas fa-envelope"></i>info@totalgtc.com</Link>
                                 <div className="top__bar-right-social">
                                     <Social />
                                 </div>
@@ -51,7 +51,7 @@ const HeaderOne = ({variant}) => {
                             <div className="header__area-menubar-left-logo">
                                 <Link href='/'>
                                     <img className='dark-n' src={logo1.src} alt='logo' />
-                                    <img className="light-n" src={logo2.src} alt="logo" />
+                                    <img className="light-n" src={logo1.src} alt="logo" />
                                 </Link>
                             </div>
                         </div>
@@ -63,21 +63,18 @@ const HeaderOne = ({variant}) => {
                         <div className="header__area-menubar-right">
                             <div className="header__area-menubar-right-box">
                                 <div className="header__area-menubar-right-box-search">
-                                    <div className="search">	
-                                        <span className="header__area-menubar-right-box-search-icon open" onClick={() => setSearch(true)}>
-                                            <i className="fal fa-search"></i>
-                                        </span>
-                                    </div>
+                                   
                                     <Search isOpen={search} setIsOpen={setSearch} />
                                 </div>
                                 <div className="header__area-menubar-right-sidebar">
-                                    <div className="header__area-menubar-right-sidebar-popup-icon" onClick={() => setSidebarOpen(true)}>
-                                        <i className="flaticon-menu"></i>                          
-                                    </div>
+                               
                                 </div>
-                                <div className="header__area-menubar-right-box-btn">
-                                <Link className="btn-one" href="/request-quote">Request quote<i className="far fa-chevron-double-right"></i></Link>
-                                </div>
+                                							<div className="header__area-menubar-right-box-btn">
+							<a className="btn-one header__profile-btn" style={{padding:'8px 16px'}} href="/assets/TOTAL profile.pdf" download>
+								<span className="label">Profile</span>
+								<i className="far fa-download" aria-hidden="true"></i>
+							</a>
+							</div>
                                 <div className="header__area-menubar-right-responsive-menu menu__bar">
                                     <i className="flaticon-menu" onClick={() => setMenuSidebar(true)}></i>
                                 </div>

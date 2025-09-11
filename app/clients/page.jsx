@@ -1,21 +1,21 @@
 "use client";
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-two";
+import HeaderOne from "@/components/layout/headers/header-one";
 import BreadCrumb from "@/components/pages/common/breadcrumb";
 import FooterTwo from "@/components/layout/footers/footer-two";
 import ScrollToTop from "@/components/pages/common/scroll/scroll-to-top";
 
 const ClientsPage = () => {
 	const clients = [
-		{ src: "/assets/img/clients/client1.jpg", name: "Petrochemical Industries Company (PIC)" },
-		{ src: "/assets/img/clients/client2.jpg", name: "Kuwait Oil Company (KOC)" },
+		{ src: "/assets/img/clients/client1.jpg", name: "DynCorp International Inc." },
+		{ src: "/assets/img/clients/client2.jpg", name: "KBR" },
 		{ src: "/assets/img/clients/client3.jpg", name: "Kuwait National Petroleum Company (KNPC)" },
-		{ src: "/assets/img/clients/client4.jpg", name: "Kuwait Aviation Fueling Company (KAFCO)" },
-		{ src: "/assets/img/clients/client5.jpg", name: "Kuwait Foreign Petroleum Exploration Company (KUFPEC)" },
-		{ src: "/assets/img/clients/client6.jpg", name: "EQUATE Petrochemical Company" },
-		{ src: "/assets/img/clients/client7.jpg", name: "Kuwait Gulf Oil Company (KGOC)" },
-		{ src: "/assets/img/clients/client8.jpg", name: "Kuwait Oil Tanker Company (KOTC)" },
-		{ src: "/assets/img/clients/client9.jpg", name: "Kuwait Petroleum Corporation (KPC)" },
+		{ src: "/assets/img/clients/client4.jpg", name: "Kuwait Oil Company (KOC)" },
+		{ src: "/assets/img/clients/client5.jpg", name: "Kuwait Petroleum Corporation (KPC)" },
+		{ src: "/assets/img/clients/client6.jpg", name: "Ministry of Electricity & Water & Renewable Energy (MEW)" },
+		{ src: "/assets/img/clients/client7.jpg", name: "Petrochemical Industries Company (PIC)" },
+		{ src: "/assets/img/clients/client8.jpg", name: "United States Army" },
+		{ src: "/assets/img/clients/client9.jpg", name: "Weston Solutions, Inc." },
 	];
 	return (
 		<>

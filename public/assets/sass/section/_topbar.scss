@@ -33,8 +33,11 @@ Top Bar CSS
         a {
             color: var(--text-white);
             font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
             i {
-                margin-right: 10px;
+                margin-right: 8px;
+                font-size: 12px;
             }
         }
     }

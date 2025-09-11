@@ -73,26 +73,7 @@ const ServicesSingleMain = ({serviceDetails}) => {
 											)}
 										</>
 									)}
-									{content?.thirdSection && (
-										<>
-											<h3 className="mt-30">{content.thirdSection.title}</h3>
-											<div className="faq__area mt-35" id="accordionExample">
-												{content.thirdSection.faqs?.map((faq, index) => {
-													const collapseId = `collapse-${index}`;
-													const show = index === 1 ? ' show' : '';
-													const collapsed = index === 1 ? '' : ' collapsed';
-													return (
-														<div className="faq__area-item" key={index}>
-															<h6 className={`icon page${collapsed}`} data-bs-toggle="collapse" data-bs-target={`#${collapseId}`}>{faq.q}</h6>
-															<div id={collapseId} className={`faq__area-item-body collapse${show}`} data-bs-parent="#accordionExample">
-																<p>{faq.a}</p>
-															</div>
-														</div>
-													);
-												})}
-											</div>
-										</>
-									)}
+									
 								</div>
 							</div>
 						</div>

@@ -1,6 +1,6 @@
 "use client"
 import SEO from "@/components/data/seo";
-import HeaderTwo from "@/components/layout/headers/header-two";
+import HeaderOne from "@/components/layout/headers/header-one";
 import FooterTwo from "@/components/layout/footers/footer-two";
 import BannerTwo from "./banner";
 import SwitchTab from "../../common/dark-light";
@@ -29,7 +29,7 @@ const HomeTwo = ({addClass}) => {
 		<>
 			<SEO pageTitle="Home" />
 			<SwitchTab addClass={addClass} />
-			<HeaderTwo />
+			<HeaderOne />
 			<BannerTwo />
 			<Services />
 			<About />

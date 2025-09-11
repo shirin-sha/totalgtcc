@@ -66,7 +66,7 @@ sectors.
 											<i className="far fa-map-marker-alt"></i>
 										</div>
 										<div className="footer__two-widget-location-item-info">
-											<p>P.O. Box 47284, Fahaheel 64523, Kuwait</p>
+											<p>P.O. Box 5092, SAFAT 13051, Kuwait</p>
 											<p>Shuaiba Industrial Area, Block 100</p>
 										</div>
 									</div>
@@ -83,7 +83,7 @@ sectors.
 											<i className="far fa-fax"></i>
 										</div>
 										<div className="footer__two-widget-location-item-info">
-											<p>Fax: +965 22437889</p>
+											<p>Fax: +965 22437833</p>
 										</div>
 									</div>
 									<div className="footer__two-widget-location-item">

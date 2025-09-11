@@ -1,6 +1,6 @@
 "use client"
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-two";
+import HeaderOne from "@/components/layout/headers/header-one";
 import BreadCrumb from "../common/breadcrumb";
 import FooterTwo from "@/components/layout/footers/footer-two";
 import Form from "./form";
@@ -37,7 +37,7 @@ const ContactFour = () => {
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Send Fax</span>
-										<p>+965 22437889</p>
+										<p>+965 22437833</p>
 									</div>
 								</div>
 								<div className="contact__two-left-item">
@@ -55,7 +55,7 @@ const ContactFour = () => {
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Office Address</span>
-										<p>P.O. Box 47284, Fahaheel 64523, Kuwait</p>
+										<p>P.O. Box 5092, SAFAT 13051, Kuwait</p>
 										<p>Shuaiba Industrial Area, Block 100</p>
 									</div>
 								</div>
