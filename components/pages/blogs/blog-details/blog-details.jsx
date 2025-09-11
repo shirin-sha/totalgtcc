@@ -5,7 +5,7 @@ import BlogSidebar from '../blog-sidebar/blog-sidebar';
 import blogDetailsContent from '@/components/data/blog-details-content';
 
 const BlogSingleMain = ({singleData}) => {
-    const category = singleData?.title.split(' ').slice(0, 2).join(' ') + '';
+    const category = singleData?.category || '';
     const blogPost = blogData.slice(0, 3);
     const content = blogDetailsContent[singleData?.id];
 
@@ -31,8 +31,8 @@ const BlogSingleMain = ({singleData}) => {
                                                 <img src="../assets/img/team/team-3.jpg" alt="avatar" />
                                             </div>
                                             <div className="author-info">
-                                                <span>Engineer</span>
-                                                <h6>Roberto Ramon</h6>
+                                                <span>Author</span>
+                                                <h6>Web Admin</h6>
                                             </div>
                                         </div>                                
                                     </div>

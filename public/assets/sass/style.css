@@ -10226,6 +10226,7 @@ Contact Two CSS
   font-weight: 600;
   max-width: 240px;
 }
+.text-case-none { text-transform: none !important; }
 .contact__two-left-item-info p a {
   transition: 0.4s;
 }
