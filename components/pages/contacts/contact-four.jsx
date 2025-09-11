@@ -55,7 +55,7 @@ const ContactFour = () => {
 									</div>
 									<div className="contact__two-left-item-info">
 										<span>Office Address</span>
-										<p className="text-case-none">P.O. Box 5092, SAFAT 13051, Kuwait</p>
+										<p className="text-case-none">P.O. Box 5092, Safat 13051, Kuwait</p>
 										{/* <p>Shuaiba Industrial Area, Block 100</p> */}
 									</div>
 								</div>
