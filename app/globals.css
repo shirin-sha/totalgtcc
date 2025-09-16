@@ -164,3 +164,148 @@
 	border-top: 0;
 }
 
+/* Lightweight auth card */
+.auth__card {
+	border: 1px solid rgba(0,0,0,0.08);
+	border-radius: 8px;
+	padding: 28px;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+.auth__header {
+	margin-bottom: 14px;
+}
+.auth__subtitle {
+	font-size: 14px;
+	opacity: 0.8;
+	margin-top: 6px;
+}
+
+/* Admin dashboard layout */
+.admin__layout {
+	display: grid;
+	grid-template-columns: 240px 1fr;
+	min-height: 100vh;
+	background: #f7f8fc;
+}
+.admin__sidebar {
+	background: #0b1324;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 18px 16px;
+	gap: 8px;
+}
+.admin__brand {
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	margin-bottom: 8px;
+}
+.admin__nav {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-top: 8px;
+	margin-bottom: auto;
+}
+.admin__nav-link {
+	color: rgba(255,255,255,0.92);
+	padding: 10px 8px;
+	border-radius: 6px;
+	display: block;
+	text-decoration: none;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+.admin__nav-link:hover { background: rgba(154,163,228,0.14); color: #fff; }
+.admin__logout { color: #fff; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 10px; margin-top: 8px; }
+
+.admin__content { display: flex; flex-direction: column; }
+.admin__topbar {
+	background: #ffffff;
+	border-bottom: 1px solid rgba(0,0,0,0.06);
+	height: 58px;
+	display: flex;
+	align-items: center;
+	padding: 0 18px;
+}
+.admin__title { margin: 0; font-size: 16px; font-weight: 700; color: #0b1324; }
+.admin__page { padding: 18px; }
+
+@media (max-width: 991.98px) {
+	.admin__layout { grid-template-columns: 1fr; }
+	.admin__sidebar { display: none; }
+}
+
+/* Admin logo */
+.admin__brand-link { display: inline-flex; align-items: center; }
+.admin__brand-logo { display: block; max-width: 160px; height: auto; filter: none; opacity: 0.95; }
+
+/* Admin sidebar theme override */
+.admin__sidebar { background: var(--brand-blue); }
+.admin__nav-link:hover { background: rgba(154,163,228,0.18); color: #fff; }
+.admin__logout { color: #fff; border-top: 1px solid rgba(255,255,255,0.12); }
+
+/* Admin sidebar light theme (override) */
+.admin__sidebar { background: #ffffff; color: #0b1324; border-right: 1px solid rgba(0,0,0,0.06); }
+.admin__nav-link { color: #0b1324; }
+.admin__nav-link:hover { background: rgba(0,0,0,0.05); color: #0b1324; }
+.admin__logout { color: #0b1324; border-top: 1px solid rgba(0,0,0,0.06); }
+
+/* Admin sidebar icons */
+.admin__nav-link i { margin-right: 8px; font-size: 14px; width: 16px; text-align: center; }
+.admin__nav-text { vertical-align: middle; }
+
+/* Lightweight modal */
+.modal__overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.35);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+	padding: 16px;
+}
+.modal__card {
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.08);
+	border-radius: 8px;
+	max-width: 720px;
+	width: 100%;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+	overflow: hidden;
+}
+.modal__header { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; border-bottom: 1px solid rgba(0,0,0,0.06); }
+.modal__body { padding: 12px; }
+.modal__footer { padding: 8px 12px; border-top: 1px solid rgba(0,0,0,0.06); display: flex; justify-content: flex-end; }
+.modal__close { background: transparent; border: 0; color: #0b1324; font-size: 16px; line-height: 1; cursor: pointer; }
+.modal__btn {
+	background: #f2f3f7;
+	border: 1px solid rgba(0,0,0,0.12);
+	border-radius: 6px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 20px;
+	cursor: pointer;
+	color: #0b1324;
+}
+.modal__btn:hover { background: #e9ebf2; }
+
+/* Lightweight admin table */
+.admin__table { width: 100%; border-collapse: collapse; }
+.admin__table th, .admin__table td { padding: 10px 12px; border-bottom: 1px solid rgba(0,0,0,0.06); font-size: 14px; }
+.admin__table thead th { background: #f7f8fc; color: #0b1324; font-weight: 700; }
+.admin__table tbody tr:nth-child(odd) { background: #ffffff; }
+.admin__table tbody tr:nth-child(even) { background: #fbfbfd; }
+.admin__table tbody tr:hover { background: #f1f3f9; }
+.admin__table .table__action { width: 64px; text-align: center; }
+
+/* Admin table borders and dividers */
+.admin__table { border: 1px solid rgba(0,0,0,0.08); }
+.admin__table thead th { border-bottom: 1px solid rgba(0,0,0,0.08); }
+.admin__table th, .admin__table td { border-right: 1px solid rgba(0,0,0,0.06); }
+.admin__table th:last-child, .admin__table td:last-child { border-right: 0; }
+
