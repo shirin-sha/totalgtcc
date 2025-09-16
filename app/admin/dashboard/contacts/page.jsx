@@ -21,14 +21,22 @@ export default async function ContactsListPage() {
 		.limit(50)
 		.toArray();
 
-	const messages = docs.map((d) => ({
-		id: typeof d._id?.toHexString === 'function' ? d._id.toHexString() : d._id?.toString?.(),
-		name: d.name,
-		email: d.email,
-		subject: d.subject || '',
-		message: d.message || '',
-		createdAt: d.createdAt ? new Date(d.createdAt).toISOString() : null,
-	}));
+	const fmt = new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: true });
+
+	const messages = docs.map((d) => {
+		const id = typeof d._id?.toHexString === 'function' ? d._id.toHexString() : d._id?.toString?.();
+		const iso = d.createdAt ? new Date(d.createdAt).toISOString() : null;
+		const createdAtDisplay = d.createdAt ? fmt.format(new Date(d.createdAt)) : null;
+		return {
+			id,
+			name: d.name,
+			email: d.email,
+			subject: d.subject || '',
+			message: d.message || '',
+			createdAt: iso,
+			createdAtDisplay,
+		};
+	});
 
 	return (
 		<div className="card p-3" style={{ background: '#fff', border: '1px solid rgba(0,0,0,0.06)', borderRadius: 8 }}>

@@ -14,6 +14,16 @@ export default function ContactsTable({ messages }) {
 		setSelected(null);
 	}
 
+	function formatDisplay(iso, display) {
+		if (display) return display;
+		if (!iso) return '-';
+		try {
+			return new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: true }).format(new Date(iso));
+		} catch {
+			return '-';
+		}
+	}
+
 	return (
 		<>
 			<div className="table-responsive">
@@ -33,7 +43,7 @@ export default function ContactsTable({ messages }) {
 								<td>{m.name}</td>
 								<td>{m.email}</td>
 								<td>{m.subject || '-'}</td>
-								<td>{m.createdAt ? new Date(m.createdAt).toLocaleString() : '-'}</td>
+								<td>{formatDisplay(m.createdAt, m.createdAtDisplay)}</td>
 								<td className="table__action">
 									<button type="button" className="btn btn-link p-0" aria-label="View message" title="View message" onClick={() => onView(m)}>
 										<i className="fal fa-eye"></i>
@@ -57,7 +67,7 @@ export default function ContactsTable({ messages }) {
 						<div className="modal__body">
 							<div className="mb-2"><strong>Email:</strong> {selected.email}</div>
 							{selected.subject && <div className="mb-2"><strong>Subject:</strong> {selected.subject}</div>}
-							<div className="mb-2"><strong>Received:</strong> {selected.createdAt ? new Date(selected.createdAt).toLocaleString() : '-'}</div>
+							<div className="mb-2"><strong>Received:</strong> {formatDisplay(selected.createdAt, selected.createdAtDisplay)}</div>
 							<div className="mb-0"><strong>Message:</strong><br />{selected.message}</div>
 						</div>
 						<div className="modal__footer">
